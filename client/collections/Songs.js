@@ -8,6 +8,6 @@ var Songs = Backbone.Collection.extend({
   }, 
 
   initialize: function() {
-  	this.fetch({data:{limit:10}})
+  	this.fetch({data:{limit:30}})
   }
 });
